@@ -1,4 +1,4 @@
-FROM hub.c.163.com/public/ubuntu:16.04-tools 
+FROM ubuntu:16.04-tools 
 MAINTAINER yivanus yivanus@gmail.com 
 RUN mkdir -p /var/mindx/meteor && chmod 777 /var/mindx/meteor 
 RUN apt-get update && apt-get install -y git 
